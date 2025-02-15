@@ -19,6 +19,22 @@ git clone   https://github.com/abd-ulbasit/wavepattern
 cd wave-pattern
 ```
 
+
+## Running Tests
+
+To run the tests, navigate to the project directory and execute:
+
+```bash
+go test ./wave-pattern -v
+```
+
+This will run all test cases and display detailed output including:
+- Example from the problem statement
+- Invalid input validation
+- Multiple block handling
+- Pattern validation
+
+
 ## Usage
 
 ```go
@@ -43,19 +59,6 @@ func main() {
 }
 ```
 
-## Running Tests
-
-To run the tests, navigate to the project directory and execute:
-
-```bash
-go test ./wave-pattern -v
-```
-
-This will run all test cases and display detailed output including:
-- Example from the problem statement
-- Invalid input validation
-- Multiple block handling
-- Pattern validation
 
 ## Implementation Details
 
