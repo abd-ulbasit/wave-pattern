@@ -53,8 +53,6 @@ func TestArrangeWavePattern(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			got, err := ArrangeWavePattern(tt.arr, tt.x)
-			// print input and output side by side
-			t.Logf("Input: %v\nOutput: %v\n", tt.arr, got)
 			if (err != nil) != tt.wantErr {
 				t.Errorf("ArrangeWavePattern() error = %v, wantErr %v", err, tt.wantErr)
 				return
